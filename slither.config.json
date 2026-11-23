@@ -1,0 +1,12 @@
+{
+  "//": "Slither config for @rings/contracts (Threat #cross-cutting: Slither in CI, S2). Run: `slither . --config-file slither.config.json`. Requires `pip install slither-analyzer` + solc 0.8.24 (e.g. via solc-select).",
+  "filter_paths": "lib/",
+  "solc_remaps": [
+    "forge-std/=lib/forge-std/src/",
+    "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "poseidon-solidity/=lib/poseidon-solidity/contracts/"
+  ],
+  "exclude_informational": false,
+  "exclude_low": false
+}

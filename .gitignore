@@ -1,0 +1,12 @@
+# Foundry
+out/
+cache/
+broadcast/
+# Dependencies (installed via `forge install` — see README)
+lib/
+# Env / secrets — never commit
+.env
+.env.*
+# OS / misc
+.DS_Store
+*.log
